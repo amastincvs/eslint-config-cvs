@@ -3,7 +3,7 @@ const path = require('path')
 
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
-  extends: ['turbo', 'prettier', 'plugin:@typescript-eslint/recommended'],
+  extends: ['prettier', 'plugin:@typescript-eslint/recommended'],
   overrides: [
     {
       extends: [
